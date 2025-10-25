@@ -22,7 +22,7 @@ fn main() {
         if number == -1 {
             break;
         }
-        if number <= 0 {
+        if number < 0 {
             println!("NaN");
             return;
         }
